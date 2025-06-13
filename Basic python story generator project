@@ -1,0 +1,23 @@
+def story_generator():
+    print("Welcome to the Story Generator!")
+    print("Let's create a fun story. Please answer the following:")
+
+    name = input("Enter a name: ")
+    place = input("Enter a place: ")
+    animal = input("Enter an animal: ")
+    object = input("Enter an object: ")
+    emotion = input("Enter an emotion: ")
+
+    story = f"""
+    One day, {name} was walking through the forest near {place}.
+    Suddenly, a wild {animal} appeared, holding a mysterious {object}.
+    {name} was filled with {emotion}, but decided to approach the creature.
+    To their surprise, the {animal} spoke and said, "This {object} belongs to you!"
+    And from that day forward, {name}'s life was never the same.
+    """
+
+    print("\nHere's your story:\n")
+    print(story)
+
+# Run the story generator
+story_generator()
